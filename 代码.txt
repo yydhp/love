@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特别的礼物</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff6f61;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .heart {
+            color: red;
+            font-size: 50px;
+            animation: beat 1s infinite;
+        }
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎁 特别的礼物 🎁</h1>
+    <p>亲爱的 [名字]，</p >
+    <p>这是为你特别制作的网页礼物，希望你喜欢！</p >
+    <div class="heart">❤️</div>
+    <p>愿你每天都开心快乐！</p >
+</body>
+</html>
